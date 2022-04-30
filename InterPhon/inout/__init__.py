@@ -8,4 +8,4 @@ espresso.py -> Collection of parser functions to read and write the input (or ou
 aims.py -> Collection of parser functions to read and write the input (or output) files of FHI-aims code.
 """
 
-__all__ = ["vasp", "espresso", "aims"]
+__all__ = ["vasp", "espresso", "aims", "jdftx"]
