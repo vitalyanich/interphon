@@ -1,6 +1,6 @@
 import numpy as np
-from electrochemistry.io_data.jdftx import Output
-from electrochemistry.core.constants import Hartree2eV, Bohr2Angstrom
+from echem.io_data.jdftx import Output
+from echem.core.constants import Hartree2eV, Bohr2Angstrom
 
 
 def read_output_lines(filepath: str, _) -> np.ndarray:
